@@ -1,0 +1,1 @@
+Para rodar basta executar o comando docker-compose up dentro da pasta app
