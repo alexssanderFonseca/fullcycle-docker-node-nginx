@@ -6,7 +6,7 @@ services:
     image: nginx:latest
     container_name: nginx
     volumes:
-      - ../../Nginx/config.d:/etc/nginx/conf.d/
+      - ./config.d:/etc/nginx/conf.d/
     networks:
      - node-network
     ports: 
